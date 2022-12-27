@@ -1,0 +1,29 @@
+
+
+[
+  {
+    "user_name": "JessyT",
+    "email": "jessy.t@tech.com",
+    "password": "12pass34word56"
+  },
+  {
+    "user_name": "StephanieG",
+    "email": "steph.green@tech.com",
+    "password": "dogs@rebetterthancats"
+  },
+  {
+    "user_name": "JackF",
+    "email": "jack.fern@tech.com",
+    "password": "RacingCar4"
+  },
+  {
+    "user_name": "JohnnyT",
+    "email": "john.tims@tech.com",
+    "password": "password"
+  },
+  {
+    "user_name": "EmilyH",
+    "email": "emily.harris@tech.com",
+    "password": "password123456789"
+  }
+]
