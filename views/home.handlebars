@@ -1,0 +1,14 @@
+<!-- Loop over each object in the projects array -->
+{{#each posts as |Post| }}
+<div class="postCard">
+  <div class="postTitle">
+    <a class="postbox" href="/post/{{Post.id}}"><h1>{{Post.title}}</h1></a>
+     <p class="postbox creator">posted by {{Post.user.user_name}} on {{format_date Post.createdAt}}</p>
+  </div>  
+  <div class="postBody">
+    <p class="postContent">
+      {{Post.content}}
+    </p>
+  </div>
+</div>
+{{/each}}

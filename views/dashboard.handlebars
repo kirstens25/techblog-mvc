@@ -1,0 +1,25 @@
+{{#if logged_in }}
+<div class=''>
+    
+    <h2 class='title pb-4'>Dashboard: Your Posts</h2><a href="/posts/new"><button class='button' id='create-post'>create a
+            post</button></a>
+<div>
+{{#each posts as |post|}}
+    <div class="postCard">
+  <div class="postTitle">
+    <a class="postbox" href="/post/{{post.id}}"><h1>{{post.title}}</h1></a>
+     <p class="postbox creator">posted by {{post.user.user_name}} on {{format_date post.createdAt}}</p>
+  </div>  
+  <div class="postBody">
+    <p class="postContent">
+      {{post.content}}
+    </p> 
+    <a class="button" href="/edit-post/{{post.id}}">Edit</a>
+  </div>
+  
+</div>
+{{/each}}
+</div>
+{{else}}
+<p>You must be logged in to view this page</p>
+{{/if}}

@@ -1,0 +1,40 @@
+<div class="postCard">
+  <div class="postTitle">
+    <a class="postbox">
+      <h1>{{post.title}}</h1>
+    </a>
+    <p class=" postbox creator">posted by {{post.user.user_name}} on {{format_date post.createdAt}}</p>
+  </div>
+  <div class="postBody">
+    <p class="postContent">
+      {{post.content}}
+    </p>
+  </div>
+
+  <div class="post-buttons">
+    <a class="button" href="/edit-post/{{post.id}}">Edit</a>
+  </div>
+</div>
+
+<h2>Comments</h2>
+<div>
+  <form action="/api/comment/new/{{post.id}}" method="post">
+    <input class="hidden" type="text" name="postId" value="{{post.id}}" />
+    <textarea name="body" id="newComment" placeholder="Write a new comment here"></textarea>
+
+    <button class="button" type="submit">Submit</button>
+
+  </form>
+</div>
+
+<section>
+  {{#each post.comments as |comment|}}
+  <div class="commentCard">
+    <p class="postbox commentHead" class="creator">posted by {{comment.user.user_name}} on {{format_date
+      comment.createdAt}}</p>
+    <div class="postBody">
+      <p class="postContent">{{comment.body}}</p>
+    </div>
+  </div>
+  {{/each}}
+</section>
