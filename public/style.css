@@ -1,0 +1,240 @@
+
+body {
+    width: 80vw;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header {
+    height: 5rem;
+    border-bottom: 0.5rem solid #004AAD;
+    
+}
+
+.hidden{
+    display: none;
+}
+
+.form-heading {
+    background-color: #dce7f0;
+    display: flex;
+    width: 99.2%;
+    justify-content: flex-end;
+    font-family: 'Abel', sans-serif;
+    padding: 0.3rem;
+}
+.heroImg {
+    height: 3.5em;
+    margin-top: -1em;
+    justify-items: end;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    flex: wrap;
+    width: 100%;
+    font-family: 'karla', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.nav-buttons {
+    padding: 0 2rem 0 2rem;  
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    width:fit-content;
+    color: black;
+}
+
+ul {
+    width: 100%;
+}
+
+.header {
+    background-color: #004AAD;
+    width: 100%;
+    flex:1;
+}
+
+h1 {
+   width: 100% ; 
+   padding: 0;
+   font-family: 'Abel', sans-serif;
+   margin: 0;
+}
+
+h2 {
+    width: 40% ; 
+    padding: 0 2rem 0 2rem;
+    font-family: 'Abel', sans-serif;
+ }
+
+ .postCard {
+     border: solid 0.1rem #004AAD;
+     margin: 2rem 0 2rem 0;
+     border-radius: 1rem;
+     width:100%;
+ }
+
+ .commentCard {
+    border: solid 0.2rem #004AAD;
+    margin: 2rem 0 2rem 0;
+    border-radius: 1rem;
+    width:100%;
+}
+
+.commentHead {
+    background-color: #BDD5EA; 
+    font-family: 'Abel', sans-serif;
+    padding: 0.3rem;
+    border-radius: 1rem 1rem 0 0;
+    margin: 0;
+}
+.postTitle {
+    background-color: #BDD5EA;
+    display: flex;
+    width: 99%;
+    justify-content: flex-end;
+    font-family: 'Abel', sans-serif;
+    padding: 0.3rem;
+    border-radius: 1rem 1rem 0 0;
+    
+}
+
+.postbox{
+    flex:1;
+}
+.creator {
+    text-align: right;
+    font-family: 'Abel', sans-serif;
+    margin-right: 1rem;
+}
+
+.postContent {
+    font-family: 'Abel', sans-serif;
+    padding: 0.3rem;
+    font-size: 1.5rem;
+}
+
+.newPost {
+   border: solid 0.1rem black;
+   border-radius: 1rem;
+   margin-top: 2rem;
+   position: relative;
+   padding-bottom: 1rem;
+   background-color:#52D1DC ;
+   box-shadow: 10px 10px 5px;
+   
+}
+
+.newPostTitle {
+    margin: 1rem 1rem 1rem 1rem;
+    width: 93.5%;
+    height: 2rem;
+    border-radius: 1rem;
+    font-family:'Quicksand', sans-serif ;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.newPostText {
+    display: block;
+    margin: 1rem 1rem 1rem 1rem;
+    width: 95%;
+    border-radius: 1rem;
+    
+}
+
+.buttonRight {
+    justify-content: flex-end;
+   justify-self: end;
+   justify-items: flex-end;
+   display:flex
+}
+
+.button {
+    display:inline-block;
+    padding:0.4em 1.2em;
+    margin:1em 0.1em 0.1em 1em;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:450;
+    color:black;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+    width: 7rem;
+    min-width: fit-content;
+    }
+    
+    button:hover{
+    border-color: rgba(255,255,255,1);
+    cursor: pointer;
+    } 
+
+    
+    .signup-form {
+        border: solid 0.2rem black;
+        padding: 1rem 1rem;
+        box-shadow: 10px 10px 5px;
+        width:40rem;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        margin:auto;
+    
+    }
+
+    .form-group {
+        padding-top: 2rem;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .email-signup {
+        margin-left: 4rem;
+    }
+    .form-input {
+        width: 40%;
+        height: 2rem;
+        font-family: 'Quicksand', sans-serif;
+        box-shadow: 5px 5px 2px;
+    }
+
+    #newComment {
+        width: 80%;
+        border-radius:2em;
+        padding-right: 1rem;
+        min-height: 3rem;
+    }
+
+    textarea {
+        padding-left: 2rem;
+        padding-top: 1rem;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5rem;
+
+    }
+
+@media screen and (max-width: 900px) {
+    .banner {
+        height:fit-content;
+    }
+    
+    .nav {
+        width: 100%;
+        flex-direction: column;
+    }
+    .nav-buttons {
+        list-style-type: circle ;
+        display: block;
+    }
+}
