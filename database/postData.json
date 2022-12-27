@@ -1,0 +1,20 @@
+[
+    {
+      "title": "The iPhone 6 camera is better than the latest Samsung smartphone.",
+      "content": "It's the age old debate, of which device has a better camera... Samsung or iPhone. Anyone born after 1991, will likely argue Samsung. Anyone born after 1991, *should* be team Apple.",
+      "created_at": "2022-05-21 08:30:00",
+      "user_id": 4
+    },
+    {
+      "title": "Should you have a digital, video doorbell? Does it keep you safer? Or put you more at risk?",
+      "content": "In the year of 2022, many people have opted to have digital doorbells installed. With digital doorbells, you can see who is at your door in real-time. You can even chat to them via your smartphone, even if you're not at home! This is very handy if the postman is about to leave a 'missed delivery' notice! But, who can access this video data? Is it as safe as you think it is? Or is there more to worry about than we first realise?",
+      "created_at": "2022-06-02 13:23:22",
+      "user_id": 1
+    },
+    {
+      "title": "Setting tech boundaries for your prize and joy (your children).",
+      "content": "Kids of today are sitting in screens, longer than children of the 90s were playing outside. Daytime, nighttime, rain, hail or shine, kids of today are staring at screens, tapping their little lives away. It's truly sad. We're not suggesting taking screens entirely away, as technology is the way of the future. However, we do recommend setting some strict (healthy) boundaries for your kids with using devices.",
+      "created_at": "2022-06-02 06:45:00",
+      "user_id": 3
+    }
+  ]
