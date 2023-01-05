@@ -1,6 +1,5 @@
 {{#if logged_in }}
 <div class=''>
-    
     <h2 class='title pb-4'>Dashboard: Your Posts</h2><a href="/posts/new"><button class='button' id='create-post'>create a
             post</button></a>
 <div>
@@ -14,7 +13,7 @@
     <p class="postContent">
       {{post.content}}
     </p> 
-    <a class="button" href="/edit-post/{{post.id}}">Edit</a>
+    <a class="button" href="/editpost/{{post.id}}">Edit</a>
   </div>
   
 </div>

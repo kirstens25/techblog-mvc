@@ -19,7 +19,7 @@ header {
     display: flex;
     width: 99.2%;
     justify-content: flex-end;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Arial', sans-serif;
     padding: 0.3rem;
 }
 .heroImg {
@@ -33,7 +33,7 @@ header {
     display: flex;
     flex: wrap;
     width: 100%;
-    font-family: 'karla', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 2rem;
     text-decoration: none;
 }
@@ -64,14 +64,14 @@ ul {
 h1 {
    width: 100% ; 
    padding: 0;
-   font-family: 'Abel', sans-serif;
+   font-family: 'Arial', sans-serif;
    margin: 0;
 }
 
 h2 {
     width: 40% ; 
     padding: 0 2rem 0 2rem;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Arial', sans-serif;
  }
 
  .postCard {
@@ -90,7 +90,7 @@ h2 {
 
 .commentHead {
     background-color: #BDD5EA; 
-    font-family: 'Abel', sans-serif;
+    font-family: 'Arial', sans-serif;
     padding: 0.3rem;
     border-radius: 1rem 1rem 0 0;
     margin: 0;
@@ -100,7 +100,7 @@ h2 {
     display: flex;
     width: 99%;
     justify-content: flex-end;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     padding: 0.3rem;
     border-radius: 1rem 1rem 0 0;
     
@@ -111,12 +111,12 @@ h2 {
 }
 .creator {
     text-align: right;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Arial', sans-serif;
     margin-right: 1rem;
 }
 
 .postContent {
-    font-family: 'Abel', sans-serif;
+    font-family: 'Arial', sans-serif;
     padding: 0.3rem;
     font-size: 1.5rem;
 }
@@ -184,13 +184,11 @@ h2 {
     .signup-form {
         border: solid 0.2rem black;
         padding: 1rem 1rem;
-        box-shadow: 10px 10px 5px;
         width:40rem;
         justify-content: center;
         justify-items: center;
         justify-self: center;
         margin:auto;
-    
     }
 
     .form-group {
@@ -206,7 +204,8 @@ h2 {
         width: 40%;
         height: 2rem;
         font-family: 'Quicksand', sans-serif;
-        box-shadow: 5px 5px 2px;
+        box-shadow: 1px 1px 10px #004AAD;
+        ;
     }
 
     #newComment {
