@@ -13,6 +13,7 @@ This project is licensed under a MIT License. A short and simple permissive lice
 - [Usage Instructions](#usage-instructions)
 - [Repository Link](#repository-link)
 - [Questions]](#questions)
+- [Screenshots]](#screenshots)
 
 ## Installation Instructions
 Put the following commands into your terminal before running the server.js
@@ -24,10 +25,17 @@ Put the following commands into your terminal before running the server.js
 
 Please install all packages first. Run both schema files (create.sql & seeds.sql) in the mysql terminal before running the node app.js in your terminal.
 
-Make sure to update the .env file to assist with you seeding a database.
+Make sure to update the .env file to assist with you seeding your database.
 
 ## Repository Link
 The repository can be found here - https://github.com/kirstens25/techblog-mvc
 
 ## Questions
 If you have any questions about this project, please contact the project creator, kirstens25 via email at kirstensegavac@gmail.com.
+
+## Screenshots
+Login Page<br><img src="./images/login.png" width="600px">
+<br>
+Dashboard Page <img src="./images/dashboard.png" width="600px">
+<br>
+Post Page <img src="./images/post.png" width="600px">
